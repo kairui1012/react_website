@@ -1,48 +1,31 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bg: 3 7 18;
-  --color-box: 17 24 39;
-  --box-border: 243 244 246 / 0.1;
-  --box-sd: transparent;
-  --heading-1: 255 255 255;
-  --heading-2: 243 244 246;
-  --heading-3: 209 213 219;
+  --color-body: rgb(255 255 255);
+  --color-box-bg: rgb(255 255 255);
+  --color-box-border: rgb(31 41 55);
+  --color-box-shadow: rgb(226 232 240 / 0.5);
+  --color-primary: rgb(124 58 237);
+  --color-heading-1: rgb(23 37 84);
+  --color-heading-2: rgb(31 41 55);
+  --color-heading-3: rgb(55 65 81);
 }
 
 html.dark {
-  --color-bg: 255 255 255;
-  --color-box: 255 255 255;
-  --box-border: 229 231 235;
-  --box-sd: 226 232 240 /0.5;
-  --heading-1: 23 37 84;
-  --heading-2: 31 41 55;
-  --heading-3: 55 65 81;
+  --color-body: rgb(3 7 18);
+  --color-box-bg: rgb(17 24 39);
+  --color-box-border: rgba(243, 244, 246, 0.881);
+  --color-box-shadow: transparent;
+  --color-heading-1: rgb(255 255 255);
+  --color-heading-2: rgb(243 244 246);
+  --color-heading-3: rgb(209 213 219);
 }
 
-@layer utilities{
-  .bg-body{
-    background-color: rgb(var(--color-bg));
-  }
-  .bg-box-body{
-    background-color: rgb(var(--color-box));
-  }
-  .text-heading-1{
-    color: rgb(var(--heading-1));
-  }
-    .text-heading-2{
-    color: rgb(var(--heading-2));
-  }
-    .text-heading-3{
-    color: rgb(var(--heading-3));
-  }
-}
-
-
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
+  background-color: var(--color-body);
   font-family: "Raleway", sans-serif;
 }
