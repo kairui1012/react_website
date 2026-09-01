@@ -21,11 +21,11 @@ export const Hero = () => {
           <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold ">
             Hi, I'm a passionate{" "}
             <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-violet-600 ml-2 ">
-              Web Developer{" "}
+              Software Developer{" "}
             </span>
           </h1>
           <Paragraph className="mt-8">
-            I create responsive, accessible, and engaging web experiences with
+            I build reliable, accessible, and engaging software solutions with
             modern technologies, thoughtful design, and clean code.
           </Paragraph>
           <div className="mt-10 w-full flex max-w-md mx-auto lg:mx-0">

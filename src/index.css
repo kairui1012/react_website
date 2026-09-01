@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-body: rgb(255 255 255);
   --color-box-bg: rgb(255 255 255);
