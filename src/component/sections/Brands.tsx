@@ -16,6 +16,12 @@ const logos = [
   "bootstrap",
 ];
 
+const logoFiles = import.meta.glob<string>("../../assets/logos/*.svg", {
+  eager: true,
+  query: "?url",
+  import: "default",
+});
+
 export const Brands = () => {
   return (
     <section>
@@ -30,7 +36,7 @@ export const Brands = () => {
               className="p-4 sm:p-5 rounded-xl bg-body  border-box-border group "
             >
               <img
-                src={`src/assets/logos/${logo}.svg`}
+                src={logoFiles[`../../assets/logos/${logo}.svg`]}
                 width="200"
                 height="120"
                 alt={logo}
