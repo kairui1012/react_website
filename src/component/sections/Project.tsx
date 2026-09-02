@@ -1,5 +1,6 @@
 import { Info } from "../cards/Info";
-import projectImage from "../../assets/image_project_1.png";
+import projectImage1 from "../../assets/image_project_1.png";
+import projectImage2 from "../../assets/image_project_2.png";
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
 import { Title } from "../shared/Title";
@@ -13,7 +14,7 @@ export const Project = () => {
         <div className="w-full md:w-5/12 lg:w-1/2 ">
           <div className="w-full h-80 sm:h-96 relative">
             <img
-              src={projectImage}
+              src={projectImage1}
               alt="JomStudy project"
               className="w-full h-full object-cover rounded-3xl shadow-lg relative z-10"
             />
@@ -86,7 +87,7 @@ export const Project = () => {
         <div className="w-full md:w-5/12 lg:w-1/2 ">
           <div className="w-full h-80 sm:h-96 relative">
             <img
-              src={projectImage}
+              src={projectImage2}
               alt="Mental Health Assistence project"
               className="w-full h-full object-cover rounded-3xl shadow-lg relative z-10"
             />

@@ -3,13 +3,8 @@ import logo from "../../assets/icon.svg";
 import { NavItem } from "../shared/NavItem";
 import { BtnLink } from "../shared/BtnLink";
 import { useThemeStore } from "../store/themeStore";
+import { navItems } from "../../utils/nav-items";
 
-const navItems = [
-  { href: "#", text: "Home" },
-  { href: "#services", text: "Services" },
-  { href: "#projects", text: "Projects" },
-  { href: "#features", text: "Skills" },
-];
 export const Navbar = () => {
   const { toggleTheme, theme } = useThemeStore();
 
