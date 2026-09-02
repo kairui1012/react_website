@@ -8,7 +8,9 @@ import { Title } from "../shared/Title";
 export const Project = () => {
   return (
     <section id="projects">
-      <Title>Project</Title>
+      <Container className="text-center mb-10 md:mb-12">
+        <Title>Project</Title>
+      </Container>
       {/* project 1 */}
       <Container className="flex flex-col md:flex-row gap-10 lg:gap-12 items-center mb-40">
         <div className="w-full md:w-5/12 lg:w-1/2 ">

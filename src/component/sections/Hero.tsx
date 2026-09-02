@@ -1,4 +1,4 @@
-import { Button } from "../shared/Button";
+import { BtnLink } from "../shared/BtnLink";
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
 import { Numbers } from "./Numbers";
@@ -30,10 +30,7 @@ export const Hero = () => {
           </Paragraph>
           <div className="mt-10 w-full flex max-w-md mx-auto lg:mx-0">
             <div className="flex sm:flex-row flex-col gap-5 w-full">
-              <form
-                action="#"
-                className="py-1 pl-6 w-full pr-1 flex gap-3 items-center text-heading-3 shadow-lg shadow-box-shadow border-[1.5px] border-box-border bg-box-bg rounded-full ease-linear focus-within:bg-body focus-within:border-primary"
-              >
+              <div className="py-1 pl-6 w-full pr-1 flex gap-3 items-center text-heading-3 shadow-lg shadow-box-shadow border-[1.5px] border-box-border bg-box-bg rounded-full ease-linear">
                 <span className="min-w-max pr-2 border-r-[1.5px] border-box-border">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -52,15 +49,17 @@ export const Hero = () => {
                 </span>
                 <input
                   type="email"
-                  placeholder="kairuisam1012@gmail.com"
-                  className="w-full py-3 outline-none bg-transparent"
+                  value="kairuisam1012@gmail.com"
+                  readOnly
+                  aria-label="Contact email"
+                  className="w-full py-3 outline-none bg-transparent cursor-default"
                 />
-                <Button className="min-w-max text-white">
-                  <span className="relative z-5">
-                    Get Started
-                  </span>
-                </Button>
-              </form>
+                <BtnLink
+                  href="mailto:kairuisam1012@gmail.com"
+                  text="Contact Me"
+                  className="min-w-max"
+                />
+              </div>
             </div>
           </div>
         </div>
