@@ -10,7 +10,9 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-3 mb-4 md:mb-0 ">
             <img src={logo} className="w-7 h-7" alt="Kairui Portfolio" />
-            <span className="text-lg font-semibold text-heading-1 "></span>
+            <span className="text-lg font-semibold text-heading-1 ">
+              Kairui Portfolio
+            </span>
           </div>
 
           <ul className="flex flex-wrap justify-center gap-6 text-heading-2 dark:text-white">
