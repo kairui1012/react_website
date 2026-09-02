@@ -21,7 +21,7 @@ export const Brands = () => {
     <section>
       <Container className="space-y-8">
         <div className="text-center max-w-3xl mx-auto">
-          <Title>Skills I've Mastered</Title>
+          <Title>Technical Skills</Title>
         </div>
         <div className="flex justify-center flex-wrap gap-4 ">
           {logos.map((logo, key) => (

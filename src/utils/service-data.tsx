@@ -1,8 +1,8 @@
 export const service = [
   {
-    title: "Software Development",
+    title: "Full-Stack Development",
     description:
-      "Building reliable and maintainable software for real-world needs.",
+      "Building complete web applications across frontend interfaces, backend systems, application data, and user interactions.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -20,9 +20,9 @@ export const service = [
     ),
   },
   {
-    title: "Full-Stack Applications",
+    title: "Frontend Development",
     description:
-      "Creating complete applications across interfaces, servers, and databases.",
+      "Creating responsive and reusable interfaces with React, Vue 3, Tailwind CSS, Sass, Bootstrap, JavaScript, and TypeScript.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -40,29 +40,9 @@ export const service = [
     ),
   },
   {
-    title: "API Integration",
+    title: "API, Database & Deployment",
     description:
-      "Connecting services and systems through clear and dependable APIs.",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth="1.5"
-        stroke="currentColor"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M13.5 6H18a4.5 4.5 0 0 1 0 9h-4.5m-3 0H6a4.5 4.5 0 0 1 0-9h4.5m-3 4.5h9"
-        />
-      </svg>
-    ),
-  },
-  {
-    title: "Database Solutions",
-    description:
-      "Designing structured data models for efficient and scalable applications.",
+      "Working with RESTful APIs, JSON, JWT authentication, MySQL, Microsoft SQL Server, Docker, and cloud platforms.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -19,14 +19,14 @@ export const Hero = () => {
         lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2"
         >
           <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold ">
-            Hi, I'm a passionate{" "}
+            I am Kai Rui, a{" "}
             <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-violet-600 ml-2 ">
               Software Developer{" "}
             </span>
           </h1>
           <Paragraph className="mt-8">
-            I build reliable, accessible, and engaging software solutions with
-            modern technologies, thoughtful design, and clean code.
+            I enjoy turning ideas into practical, reliable, and user-friendly
+            software.
           </Paragraph>
           <div className="mt-10 w-full flex max-w-md mx-auto lg:mx-0">
             <div className="flex sm:flex-row flex-col gap-5 w-full">

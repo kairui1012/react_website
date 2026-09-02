@@ -6,8 +6,8 @@ import { useThemeStore } from "../store/themeStore";
 
 const navItems = [
   { href: "#", text: "Home" },
-  { href: "#services", text: "Projects" },
-  { href: "#about-us", text: "About Me" },
+  { href: "#services", text: "Services" },
+  { href: "#projects", text: "Projects" },
   { href: "#features", text: "Skills" },
 ];
 export const Navbar = () => {
